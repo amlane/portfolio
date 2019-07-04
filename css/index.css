@@ -134,6 +134,9 @@ html,
 body {
   font-family: "Roboto", sans-serif;
 }
+button:focus {
+  outline: none;
+}
 .home-page .first-page-view {
   display: flex;
   justify-content: space-between;
@@ -185,6 +188,13 @@ body {
   font-style: italic;
   align-self: flex-end;
   margin-right: 16%;
+}
+.home-page .first-page-view .left-container .arrow {
+  background: none;
+  border: none;
+}
+.home-page .first-page-view .left-container .arrow:hover {
+  cursor: pointer;
 }
 .home-page .first-page-view .hero-container {
   margin-left: 50vw;
