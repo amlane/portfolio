@@ -189,12 +189,19 @@ button:focus {
   align-self: flex-end;
   margin-right: 16%;
 }
-.home-page .first-page-view .left-container .arrow {
+.home-page .first-page-view .left-container .arrow-container {
+  display: flex;
+  flex-direction: column;
+}
+.home-page .first-page-view .left-container .arrow-container .arrow {
   background: none;
   border: none;
 }
-.home-page .first-page-view .left-container .arrow:hover {
+.home-page .first-page-view .left-container .arrow-container .arrow:hover {
   cursor: pointer;
+}
+.home-page .first-page-view .left-container .arrow-container .up-arrow {
+  transform: rotate(180deg);
 }
 .home-page .first-page-view .hero-container {
   margin-left: 50vw;

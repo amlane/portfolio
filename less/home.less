@@ -53,12 +53,22 @@
           margin-right: 16%;
         }
       }
-      .arrow {
-        background: none;
-        border: none;
 
-        &:hover {
-          cursor: pointer;
+      .arrow-container {
+        display: flex;
+        flex-direction: column;
+
+        .arrow {
+          background: none;
+          border: none;
+
+          &:hover {
+            cursor: pointer;
+          }
+        }
+
+        .up-arrow {
+          transform: rotate(180deg);
         }
       }
     }
